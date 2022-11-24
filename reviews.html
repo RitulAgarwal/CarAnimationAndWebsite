@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+.bg{
+    background: url('https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=2000')   ;
+
+    
+}
+.section{
+
+    height: 450px;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-size: cover;
+    font-size: large;
+
+}
+.left{
+    flex-direction: row-reverse;
+}
+    
+.paras{
+    padding: 0px 60px;
+    border: 3px solid yellow;
+    border-radius: 40px;
+    background-color: skyblue;
+    box-shadow: 10px 12px 12px purple;
+}
+.sectiontag{
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: flex;
+    color: red;
+}
+.text-biggest{
+    font-size: 60px;
+}
+.text-bigger{
+    font-size: 50px;
+
+    }
+.sectionsubtag{
+    transition: all 0.1s ease-in-out;;
+
+} 
+.sectionsubtag:hover{
+        width : 500px;
+        height: 550;
+
+
+    }
+    
+.text-big{
+    font-size: 30px;
+}
+
+.text-small{
+    font-size: 30px;
+}
+.thumbnail img{
+    height: 400px;
+    width: 250px;
+    border: 4px solid black;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+
+
+}
+    
+img:hover{
+        width : 500px;
+        height: 550;
+
+
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="bg">
+    <section class="section">
+        <div class="paras">
+        <p class="sectiontag text-biggest">EXCLUSIVELY MARUTI SUZUKI !!</p>
+        <p class="sectionsubtag text-big ">Maruti Suzuki India Limited, formerly known as Maruti Udyog Limited, is an Indian automobile manufacturer, based in New Delhi. It was founded in 1981 and owned by the Government of India until 2003, when it was sold to the Japanese automaker Suzuki Motor Corporation. As of February 2022 Maruti Suzuki has a market share of 44.2 percent in the Indian passenger car market.Maruti Suzuki has two manufacturing facilities in Haryana (Gurugram and Manesar)</p>
+        </div>
+    </section>
+    <section class="section left" id="reviews">
+        <div class="paras">
+        <p class="sectiontag text-bigger ">Review on my Sedan</p>
+        <p class="sectionsubtag text-small"> A few days ago, I had a drive of the Maruti Suzuki Dzire and the drive was excellent. The comfort and the performance along with the mileage impressed me. So I recommend all those users who want to buy a mid-range sedan, they must opt for the Maruti Suzuki Dzire. It's one of the best and finest sedans I have ever driven.
+    
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="man1.jpeg" class="image">
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+        <p class="sectiontag text-bigger">My SUV's review</p>
+        <p class="sectionsubtag text-small">I have purchased many cars over the years but SUV is by far the easiest and smoothest.When it comes to selling high quality, solid cars at a good price,Maruti Suzuki has always been the first choice of many. Highly recommend SUV to buy your next vehicle!</p>
+        </div>
+        <div class="thumbnail">
+            <img src="woman2.jpeg" class="image">
+        </div>
+    </section>
+    <section class="section left">
+        <div class="paras">
+        <p class="sectiontag text-bigger">Brezza's the best</p>
+        <p class="sectionsubtag text-small">My experience purchasing a car from MS was excellent. The manager worked with me through the entire purchase and was fast to answer all my questions and helped out as much as he could. MarutiSuzuki offered a complete walk around of the car and pointed out blemishes to make sure there were no surprises once I received the car.
+    
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="data:image/jpeg;base64,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" class="image">
+        </div>
+    </section>
+    </div>
+</body>
+</html>

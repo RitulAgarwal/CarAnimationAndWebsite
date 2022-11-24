@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car animaiton bruh</title>
+    <link rel="stylesheet" href="car.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="sky">
+            <div class="container1">
+                <div class="box">
+                    <h2>Do you wanna choose another car?</h2>
+
+                
+                    <button class="btn" onclick="imagechoice('w')"> WHITE </button>  
+                    <button class="btn" onclick="imagechoice('r')"> RED </button> 
+                    <button class="btn" onclick="imagechoice('b')"> BLACK </button>
+                </div>
+            </div>
+            <div class="container2">
+                <h2>Do you wanna  change the background..?GO AHEAD!!</h2>
+                <div class="box1">
+                   <button class="btn1" onclick="bgchoice('n')"> AT NIGHT</button>  
+                   <button class="btn1" onclick="bgchoice('morn')"> DAY LIGHT </button> 
+                   <button class="btn1" onclick="bgchoice('f')"> B/W THE WOODS </button>
+                   <button class="btn1" onclick="bgchoice('mountain')"> ON THE MOUNTAIN</button>
+                </div>
+            </div>
+            <div>
+                <h1 id="heading"></h1>
+            </div>
+             <div class="tree">
+                <div class="track">
+                    <div id ="car" class="car">                        
+                        <div class="wheel1 ">
+                            <img src="car_images/wheel.png">
+                        </div>
+                        <div class="wheel2 ">
+                            <img src="car_images/wheel.png" >
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <script src="car.js"></script>
+</body>
+</html>
